@@ -9,12 +9,7 @@ import org.junit.Test;
 public class CodeCrackerTest {
 
     private final CodeCracker codeCracker = new CodeCracker();
-
-    @Test
-    public void doesThisWork() {
-        Assert.assertNotNull(new Object());
-    }
-
+    
     @Test
     public void emptyStringDeliversemptyRsult() {
         Assert.assertEquals("", codeCracker.encode());
