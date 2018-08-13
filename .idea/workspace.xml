@@ -4,7 +4,6 @@
     <list default="true" id="4424249c-9a58-4f02-807e-1ac689748c52" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/de/swk/brunswick/codecracker/CodeCrackerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/swk/brunswick/codecracker/CodeCrackerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="CodeCrackerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="171">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -372,9 +371,15 @@
     <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 06m 10s.xml">
       <configuration name="CodeCrackerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 07m 05s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 10m 51s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4518000" />
+    <option name="totallyTimeSpent" value="4764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="1012" extended-state="0" />
@@ -396,7 +401,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39910313" />
       <window_info anchor="right" id="Notes" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3295964" />
@@ -404,12 +409,12 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34304932" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23430493" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -557,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="171">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
         </state>
       </provider>
     </entry>

@@ -26,17 +26,18 @@ public class CodeCrackerTest {
 
     @Test
     public void isLetterADecodedToExclaimationMark() {
-        Assert.assertEquals("!", decode("a"));
-    }
-    @Test
-    public void isLetterBDecodedToExclaimationMark() {
-        Assert.assertEquals(")", decode("b"));
+        Assert.assertEquals("!", decode('a').toString());
     }
 
-    private String decode(String a) {
-        Map<Character, Character> codeMap =  new HashMap<>();
+    @Test
+    public void isLetterBDecodedToExclaimationMark() {
+        Assert.assertEquals(")", decode('b').toString());
+    }
+
+    private Character decode(Character toDecodeCharacter) {
+        Map<Character, Character> codeMap = new HashMap<>();
         codeMap.put('a', '!');
         codeMap.put('b', ')');
-        return codeMap.get(a.charAt(0)).toString();
+        return codeMap.get(toDecodeCharacter);
     }
 }
