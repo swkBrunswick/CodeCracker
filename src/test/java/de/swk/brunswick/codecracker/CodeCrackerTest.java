@@ -9,7 +9,11 @@ import org.junit.Test;
 public class CodeCrackerTest {
 
     private final CodeCracker codeCracker = new CodeCracker();
-    
+
+    private void testALetter(String expected, char given) {
+        Assert.assertEquals(expected, codeCracker.encode(given).toString());
+    }
+
     @Test
     public void emptyStringDeliversemptyRsult() {
         Assert.assertEquals("", codeCracker.encode());
@@ -17,17 +21,17 @@ public class CodeCrackerTest {
 
     @Test
     public void isLetterADecodedToExclaimationMark() {
-        codeCracker.testALetter("!", 'a');
+        testALetter("!", 'a');
     }
 
     @Test
     public void isLetterBDecodedToExclaimationMark() {
-        codeCracker.testALetter(")", 'b');
+        testALetter(")", 'b');
     }
 
     @Test
     public void isLetterCDecodedToExclaimationMark() {
-        codeCracker.testALetter("\"", 'c');
+        testALetter("\"", 'c');
     }
 
     @Test

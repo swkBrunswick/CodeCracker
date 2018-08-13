@@ -2,7 +2,6 @@ package de.swk.brunswick.codecracker;
 
 import java.util.HashMap;
 import java.util.Map;
-import org.junit.Assert;
 
 public class CodeCracker {
 
@@ -16,10 +15,6 @@ public class CodeCracker {
             builder.append(encode(character));
         }
         return builder.toString();
-    }
-
-    void testALetter(String s, char c) {
-        Assert.assertEquals(s, encode(c).toString());
     }
 
     Character encode(Character toDecodeCharacter) {
