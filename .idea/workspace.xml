@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4424249c-9a58-4f02-807e-1ac689748c52" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/swk/brunswick/codecracker/CodeCrackerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/swk/brunswick/codecracker/CodeCrackerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,6 +14,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/codecracker$CodeCrackerTest.ic" NAME="CodeCrackerTest Coverage Results" MODIFIED="1534183569905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.swk.brunswick.codecracker.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -29,8 +34,8 @@
       <file leaf-file-name="CodeCrackerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="398">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -361,9 +366,15 @@
     <history-entry file="CodeCrackerTest - 2018.08.13 at 19h 40m 00s.xml">
       <configuration name="CodeCrackerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 02m 17s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 06m 10s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4210000" />
+    <option name="totallyTimeSpent" value="4518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="1012" extended-state="0" />
@@ -393,21 +404,55 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34304932" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34304932" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Serial Monitor" order="8" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30941704" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29360968" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Sequence" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="OpenShift Origin" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Tool Output" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Notes" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="8" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Jelastic" order="8" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3295964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        <state relative-caret-position="398">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
