@@ -13,5 +13,8 @@ public class CodeCrackerTest {
         Assert.assertNotNull(new Object());
     }
 
-
+    @Test
+    public  void emptyStringDeliversemptyRsult() {
+        Assert.assertEquals("","" );
+    }
 }
