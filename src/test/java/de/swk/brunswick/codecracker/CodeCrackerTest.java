@@ -46,7 +46,11 @@ public class CodeCrackerTest {
     }
 
     private String decode(String word) {
-        return "!)\"";
+        final StringBuilder builder = new StringBuilder();
+        for (Character character : word.toCharArray()) {
+            builder.append(decode(character));
+        }
+        return builder.toString();
     }
 
     private void testALetter(String s, char c) {
