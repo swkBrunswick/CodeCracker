@@ -1,6 +1,5 @@
 package de.swk.brunswick.codecracker;
 
-import java.util.HashMap;
 import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,6 +9,8 @@ import org.junit.Test;
  */
 public class CodeCrackerTest {
 
+    private final CodeCracker codeCracker = new CodeCracker();
+
     @Test
     public void doesThisWork() {
         Assert.assertNotNull(new Object());
@@ -17,56 +18,47 @@ public class CodeCrackerTest {
 
     @Test
     public void emptyStringDeliversemptyRsult() {
-        Assert.assertEquals("", encode());
+        Assert.assertEquals("", codeCracker.encode());
     }
 
     private String encode() {
-        return "";
+        return codeCracker.encode();
     }
 
     @Test
     public void isLetterADecodedToExclaimationMark() {
-        testALetter("!", 'a');
+        codeCracker.testALetter("!", 'a');
     }
 
     @Test
     public void isLetterBDecodedToExclaimationMark() {
-        testALetter(")", 'b');
+        codeCracker.testALetter(")", 'b');
     }
 
     @Test
     public void isLetterCDecodedToExclaimationMark() {
-        testALetter("\"", 'c');
+        codeCracker.testALetter("\"", 'c');
     }
 
     @Test
     public void isWordAbcDecoded() {
         final String expected = "!)\"";
-        Assert.assertEquals(expected, encode("abc"));
+        Assert.assertEquals(expected, codeCracker.encode("abc"));
     }
 
     private String encode(String word) {
-        final StringBuilder builder = new StringBuilder();
-        for (Character character : word.toCharArray()) {
-            builder.append(encode(character));
-        }
-        return builder.toString();
+        return codeCracker.encode(word);
     }
 
     private void testALetter(String s, char c) {
-        Assert.assertEquals(s, encode(c).toString());
+        codeCracker.testALetter(s, c);
     }
 
     private Character encode(Character toDecodeCharacter) {
-        Map<Character, Character> codeMap = getCodingMap();
-        return codeMap.get(toDecodeCharacter);
+        return codeCracker.encode(toDecodeCharacter);
     }
 
     private Map<Character, Character> getCodingMap() {
-        Map<Character, Character> codeMap = new HashMap<>();
-        codeMap.put('a', '!');
-        codeMap.put('b', ')');
-        codeMap.put('c', '\"');
-        return codeMap;
+        return codeCracker.getCodingMap();
     }
 }
