@@ -7,7 +7,7 @@ public class CodeCracker {
     private final Codec codec = new SimpleCodec();
 
 
-    String encode(String word) {
+    public String encode(String word) {
         final StringBuilder builder = new StringBuilder();
         for (Character character : word.toCharArray()) {
             builder.append(encode(character));
@@ -16,7 +16,7 @@ public class CodeCracker {
     }
 
     Character encode(Character toDecodeCharacter) {
-        Map<Character, Character> codeMap = codec.getCodingMap();
+        Map<Character, Character> codeMap = codec.getCodeMap();
         return codeMap.get(toDecodeCharacter);
     }
 

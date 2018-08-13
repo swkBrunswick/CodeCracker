@@ -6,7 +6,7 @@ import java.util.Map;
 public class SimpleCodec implements Codec {
 
     @Override
-    public Map<Character, Character> getCodingMap() {
+    public Map<Character, Character> getCodeMap() {
 
         char[] org = "a b c d e f g h i j k l m n o p q r s t u v w x y z".toCharArray();
         char[] enc = "! ) \" ( £ * % & > < @ a b c d e f g h i j k l m n o".toCharArray();

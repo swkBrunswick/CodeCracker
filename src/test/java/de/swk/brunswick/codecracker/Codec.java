@@ -15,5 +15,5 @@ import java.util.Map;
  */
 public interface Codec {
 
-    Map<Character, Character> getCodingMap();
+    Map<Character, Character> getCodeMap();
 }
