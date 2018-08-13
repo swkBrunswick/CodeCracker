@@ -16,7 +16,7 @@ public class CodeCrackerTest {
 
     @Test
     public void emptyStringDeliversemptyRsult() {
-        Assert.assertEquals("", codeCracker.encode());
+        Assert.assertEquals("", codeCracker.encode(""));
     }
 
     @Test
@@ -38,6 +38,13 @@ public class CodeCrackerTest {
     public void isWordAbcDecoded() {
         final String expected = "!)\"";
         Assert.assertEquals(expected, codeCracker.encode("abc"));
+    }
+
+    @Test
+    public void isThisSpecialWordEncoded() {
+        final String expected   = "! ) \" ( £ * % & > < @ a b c d e f g h i j k l m n o";
+        final String given      = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
+        Assert.assertEquals(expected, codeCracker.encode(given));
     }
 
 }

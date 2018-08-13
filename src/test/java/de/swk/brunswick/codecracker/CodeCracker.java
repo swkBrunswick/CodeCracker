@@ -1,13 +1,11 @@
 package de.swk.brunswick.codecracker;
 
-import java.util.HashMap;
 import java.util.Map;
 
 public class CodeCracker {
 
-    String encode() {
-        return "";
-    }
+    private final Codec codec = new SimpleCodec();
+
 
     String encode(String word) {
         final StringBuilder builder = new StringBuilder();
@@ -18,15 +16,8 @@ public class CodeCracker {
     }
 
     Character encode(Character toDecodeCharacter) {
-        Map<Character, Character> codeMap = getCodingMap();
+        Map<Character, Character> codeMap = codec.getCodingMap();
         return codeMap.get(toDecodeCharacter);
     }
 
-    Map<Character, Character> getCodingMap() {
-        Map<Character, Character> codeMap = new HashMap<Character, Character>();
-        codeMap.put('a', '!');
-        codeMap.put('b', ')');
-        codeMap.put('c', '\"');
-        return codeMap;
-    }
 }

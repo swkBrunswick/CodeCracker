@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4424249c-9a58-4f02-807e-1ac689748c52" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/SimpleCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/swk/brunswick/codecracker/CodeCracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/swk/brunswick/codecracker/CodeCracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/de/swk/brunswick/codecracker/CodeCrackerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/de/swk/brunswick/codecracker/CodeCrackerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +25,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.36539954">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
@@ -34,8 +40,8 @@
           <file leaf-file-name="CodeCrackerTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+                <state relative-caret-position="309">
+                  <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
@@ -47,8 +53,26 @@
           <file leaf-file-name="CodeCracker.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCracker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="105">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SimpleCodec.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/SimpleCodec.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Codec.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/Codec.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -61,6 +85,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -86,6 +111,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodecrackerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/SimpleCodec.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCracker.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" />
       </list>
@@ -106,7 +132,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1770" />
     <option name="height" value="1012" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -252,6 +278,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="de.swk.brunswick.codecracker" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -370,24 +399,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 06m 10s.xml">
-      <configuration name="CodeCrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 07m 05s.xml">
-      <configuration name="CodeCrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 10m 51s.xml">
-      <configuration name="CodeCrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 11m 12s.xml">
-      <configuration name="CodeCrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 29m 04s.xml">
-      <configuration name="CodeCrackerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 37m 09s.xml">
-      <configuration name="CodeCrackerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CodeCrackerTest - 2018.08.13 at 20h 55m 47s.xml">
       <configuration name="CodeCrackerTest" configurationId="JUnit" />
     </history-entry>
@@ -400,12 +411,39 @@
     <history-entry file="CodeCrackerTest - 2018.08.13 at 21h 09m 59s.xml">
       <configuration name="CodeCrackerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 21h 18m 26s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 21h 18m 55s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 21h 19m 21s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 21h 20m 01s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 21h 25m 50s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 21h 31m 12s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6702000" />
+    <option name="totallyTimeSpent" value="7686000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="1012" extended-state="0" />
+    <frame x="0" y="23" width="1770" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" />
@@ -426,30 +464,30 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39798206" />
       <window_info anchor="right" id="Notes" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295964" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3295964" />
       <window_info anchor="bottom" id="OpenShift Origin" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34865472" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31473532" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34865472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25405094" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30941704" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.29360968" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Sequence" order="8" />
@@ -467,6 +505,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="PlantUML" order="3" />
@@ -481,7 +520,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="bottom" id="Jelastic" order="7" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3295964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39798206" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,20 +560,6 @@
     <option name="serverIp" value="localhost" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -864,17 +889,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/SimpleCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/Codec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="309">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
         </state>
       </provider>
     </entry>
