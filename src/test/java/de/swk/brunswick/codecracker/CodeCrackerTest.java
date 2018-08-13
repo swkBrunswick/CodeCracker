@@ -14,7 +14,11 @@ public class CodeCrackerTest {
     }
 
     @Test
-    public  void emptyStringDeliversemptyRsult() {
-        Assert.assertEquals("","" );
+    public void emptyStringDeliversemptyRsult() {
+        Assert.assertEquals("", decode());
+    }
+
+    private String decode() {
+        return "";
     }
 }
