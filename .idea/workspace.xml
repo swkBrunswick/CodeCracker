@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4424249c-9a58-4f02-807e-1ac689748c52" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -28,8 +29,8 @@
       <file leaf-file-name="CodeCrackerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="431">
+              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -357,9 +358,12 @@
     <history-entry file="CodeCrackerTest - 2018.08.13 at 19h 22m 08s.xml">
       <configuration name="CodeCrackerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CodeCrackerTest - 2018.08.13 at 19h 40m 00s.xml">
+      <configuration name="CodeCrackerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2904000" />
+    <option name="totallyTimeSpent" value="4210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="1012" extended-state="0" />
@@ -393,7 +397,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
       <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2600897" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34304932" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -502,14 +506,14 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/swk/brunswick/codecracker/CodeCrackerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="431">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
         </state>
       </provider>
     </entry>

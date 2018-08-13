@@ -1,5 +1,7 @@
 package de.swk.brunswick.codecracker;
 
+import java.util.HashMap;
+import java.util.Map;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -28,6 +30,8 @@ public class CodeCrackerTest {
     }
 
     private String decode(String a) {
-        return "!";
+        Map<Character, Character> codeMap =  new HashMap<>();
+        codeMap.put('a', '!');
+        return codeMap.get(a.charAt(0)).toString();
     }
 }
