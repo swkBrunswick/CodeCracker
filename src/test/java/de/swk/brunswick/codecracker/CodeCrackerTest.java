@@ -17,10 +17,10 @@ public class CodeCrackerTest {
 
     @Test
     public void emptyStringDeliversemptyRsult() {
-        Assert.assertEquals("", decode());
+        Assert.assertEquals("", encode());
     }
 
-    private String decode() {
+    private String encode() {
         return "";
     }
 
@@ -42,26 +42,31 @@ public class CodeCrackerTest {
     @Test
     public void isWordAbcDecoded() {
         final String expected = "!)\"";
-        Assert.assertEquals(expected, decode("abc"));
+        Assert.assertEquals(expected, encode("abc"));
     }
 
-    private String decode(String word) {
+    private String encode(String word) {
         final StringBuilder builder = new StringBuilder();
         for (Character character : word.toCharArray()) {
-            builder.append(decode(character));
+            builder.append(encode(character));
         }
         return builder.toString();
     }
 
     private void testALetter(String s, char c) {
-        Assert.assertEquals(s, decode(c).toString());
+        Assert.assertEquals(s, encode(c).toString());
     }
 
-    private Character decode(Character toDecodeCharacter) {
+    private Character encode(Character toDecodeCharacter) {
+        Map<Character, Character> codeMap = getCodingMap();
+        return codeMap.get(toDecodeCharacter);
+    }
+
+    private Map<Character, Character> getCodingMap() {
         Map<Character, Character> codeMap = new HashMap<>();
         codeMap.put('a', '!');
         codeMap.put('b', ')');
         codeMap.put('c', '\"');
-        return codeMap.get(toDecodeCharacter);
+        return codeMap;
     }
 }
