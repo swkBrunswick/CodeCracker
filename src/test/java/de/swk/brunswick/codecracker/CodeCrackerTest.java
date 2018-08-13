@@ -21,4 +21,13 @@ public class CodeCrackerTest {
     private String decode() {
         return "";
     }
+
+    @Test
+    public void isLetterADecodedToExclaimationMark() {
+        Assert.assertEquals("!", decode("a"));
+    }
+
+    private String decode(String a) {
+        return "!";
+    }
 }
