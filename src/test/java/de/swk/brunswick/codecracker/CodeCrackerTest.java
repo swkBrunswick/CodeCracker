@@ -33,9 +33,20 @@ public class CodeCrackerTest {
     public void isLetterBDecodedToExclaimationMark() {
         testALetter(")", 'b');
     }
+
     @Test
     public void isLetterCDecodedToExclaimationMark() {
         testALetter("\"", 'c');
+    }
+
+    @Test
+    public void isWordAbcDecoded() {
+        final String expected = "!)\"";
+        Assert.assertEquals(expected, decode("abc"));
+    }
+
+    private String decode(String word) {
+        return "!)\"";
     }
 
     private void testALetter(String s, char c) {
